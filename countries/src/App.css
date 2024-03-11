@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width and height */
+}
+.header {
+display: flex;
+  flex-direction: row;
+  gap: 80rem;
+  align-items: center;
+  padding: 1rem 0;
+  /* Adjust padding as needed */
+  width: 100%;
+  font-size: 0.8em;
+  background-color: gray;
+  height: 60px;
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.light-mode{
+  background-color: white;
+  color: black;
+}
+input[type= "checkbox"]{
+  display: none;
+}
